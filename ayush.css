@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+background-color: black;
+font-size: 15px;
+line-height: 1.5;
+padding: 0;
+margin: 0;
+}
+.container{
+    width: 520;
+    height: auto;
+min-height: 100px;
+margin: 100px auto;
+background-color: black;
+border-radius: 5px;
+border: 1px solid #0ef;
+box-shadow: inset 0 0 0.5em #0ef;  0 0.5em 0 #0ef, 0 0;
+}
+.base h4{
+  font-size: 26px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0px;
+  font-size: 34px;
+  color: #0ef;  
+}
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.tittle{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5;
+word-spacing: 2.7px;
+color: #0ef;
+}
+input[type=text]{
+width: 140px;
+margin: auto;
+outline: none;
+min-height: 50px;
+border: 2px solid #333;
+padding: 12px;
+background-color: black;
+border-radius: 5px;
+color: white;
+font-size: 17px;
+}
+input[type=button]{
+    width: 120px;
+    margin-left: 40%;
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: aqua;
+color: black;
+border: 1px olid aqua;
+padding: 0.25em 1em;
+border-radius: 0.25em;
+box-shadow: inset 0 0 0.5em 0 aqua 0 0 0 aqua 0 0 0;
+}
+input[type=button] hover{
+color: white;
+transition-property: box-shadow;
+transition-duration: .5s;
+box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0;
+
+}
+#age{
+    padding: 20px;
+    opacity: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+  color: #fff;
+}
